@@ -1,11 +1,16 @@
-import { useState } from 'react'
+import { useState } from 'react';
+
+import './global.css';
+import styles from './App.module.css'
+import { Header } from './components/Header';
 
 function App() {
-  
-
   return (
-    <div style={{color: 'blue'}}>
-      <h1>Hello Word</h1>
+    <div>
+      <Header />
+      <div className={styles.wrapper}>
+
+      </div>
     </div>
   )
 }
